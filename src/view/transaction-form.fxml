@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="transaction_scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.TransactionProcess">
+   <children>
+      <Label fx:id="transaction_label" alignment="CENTER" prefHeight="47.0" prefWidth="400.0" style="-fx-background-color: #590004;" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="record_button" layoutX="25.0" layoutY="675.0" mnemonicParsing="false" onAction="#recordTransaction" prefHeight="45.0" prefWidth="350.0" style="-fx-background-color: #590004;" text="RECORD" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="transaction_payer_id" editable="false" layoutX="25.0" layoutY="136.0" prefHeight="40.0" prefWidth="350.0" style="-fx-border-color: #979dac; -fx-background-color: white;">
+         <padding>
+            <Insets left="10.0" />
+         </padding></TextField>
+      <TextField fx:id="transaction_payer_name" editable="false" layoutX="25.0" layoutY="212.0" prefHeight="40.0" prefWidth="350.0" style="-fx-border-color: #979dac; -fx-background-color: white;">
+         <padding>
+            <Insets left="10.0" />
+         </padding></TextField>
+      <TextField fx:id="transaction_amount" editable="false" layoutX="25.0" layoutY="417.0" prefHeight="40.0" prefWidth="350.0" style="-fx-border-color: #979dac; -fx-background-color: white;">
+         <padding>
+            <Insets left="10.0" />
+         </padding></TextField>
+      <TextField fx:id="transaction_semester" editable="false" layoutX="25.0" layoutY="489.0" prefHeight="40.0" prefWidth="350.0" style="-fx-border-color: #979dac; -fx-background-color: white;">
+         <padding>
+            <Insets left="10.0" />
+         </padding></TextField>
+      <ComboBox fx:id="transaction_payer_year" layoutX="25.0" layoutY="286.0" prefHeight="40.0" prefWidth="350.0" style="-fx-border-color: #979dac; -fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding></ComboBox>
+      <ComboBox fx:id="transaction_payment_mode" layoutX="25.0" layoutY="560.0" prefHeight="40.0" prefWidth="350.0" promptText="SELECT HERE" style="-fx-border-color: #979dac; -fx-background-color: white;">
+         <padding>
+            <Insets left="5.0" />
+         </padding></ComboBox>
+      <Button fx:id="add_receipt_button" disable="true" layoutX="253.0" layoutY="615.0" mnemonicParsing="false" onAction="#addReceiptAction" prefHeight="40.0" prefWidth="121.0" text="ADD RECEIPT" />
+      <Hyperlink fx:id="receipt_link" alignment="CENTER" disable="true" layoutX="30.0" layoutY="615.0" onAction="#receiptViewer" onDragDropped="#receiptDropped" onDragOver="#receiptDragOver" prefHeight="37.0" prefWidth="211.0" text="No File Chosen" wrapText="true" />
+      <Label layoutX="25.0" layoutY="107.0" opacity="0.5" prefHeight="37.0" prefWidth="115.0" text="ID Number" />
+      <Label layoutX="25.0" layoutY="183.0" opacity="0.5" prefHeight="37.0" prefWidth="115.0" text="Name" />
+      <Label layoutX="25.0" layoutY="257.0" opacity="0.5" prefHeight="37.0" prefWidth="115.0" text="Year level" />
+      <Label layoutX="25.0" layoutY="388.0" opacity="0.5" prefHeight="37.0" prefWidth="115.0" text="Amount" />
+      <Label layoutX="25.0" layoutY="460.0" opacity="0.5" prefHeight="37.0" prefWidth="115.0" text="Semester" />
+      <Label layoutX="25.0" layoutY="530.0" opacity="0.5" prefHeight="37.0" prefWidth="115.0" text="Payment mode" />
+      <Label layoutX="25.0" layoutY="351.0" opacity="0.8" prefHeight="37.0" prefWidth="236.0" text="Transaction Details">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" layoutX="273.0" layoutY="370.0" opacity="0.5" startX="-112.0" />
+      <Line endX="100.0" layoutX="273.0" layoutY="88.0" opacity="0.5" startX="-99.0" />
+      <Label layoutX="25.0" layoutY="68.0" opacity="0.8" prefHeight="37.0" prefWidth="236.0" text="Personal Information">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

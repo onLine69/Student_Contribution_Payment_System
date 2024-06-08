@@ -1,0 +1,32 @@
+{
+    "java.project.sourcePaths": [
+        "Student_Contribution_Payment_System/src",
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\javafx-sdk-22.0.1\\lib\\javafx.base.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\javafx-sdk-22.0.1\\lib\\javafx.controls.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\javafx-sdk-22.0.1\\lib\\javafx.fxml.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\javafx-sdk-22.0.1\\lib\\javafx.graphics.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\javafx-sdk-22.0.1\\lib\\javafx.media.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\javafx-sdk-22.0.1\\lib\\javafx.swing.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\javafx-sdk-22.0.1\\lib\\javafx.web.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\javafx-sdk-22.0.1\\lib\\javafx-swt.jar",
+        "src/mysql-connector-j-8.3.0.jar",
+        "src/javax.mail.jar",
+        "src/activation-1.1.1-sources.jar",
+        "src/activation-1.1.1.jar",
+        "src/src/activation-1.1.1.jar",
+        "src/src/javax.mail.jar",
+        "src/src/mysql-connector-j-8.3.0.jar",
+        "Student_Contribution_Payment_System/src/src/activation-1.1.1.jar",
+        "Student_Contribution_Payment_System/src/src/javax.mail.jar",
+        "Student_Contribution_Payment_System/src/src/mysql-connector-j-8.3.0.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\SCPS_SDKs\\activation-1.1.1.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\SCPS_SDKs\\javax.mail.jar",
+        "c:\\Users\\Kinayban\\Documents\\Apps\\JavaFX_SDK\\SCPS_SDKs\\mysql-connector-j-8.3.0.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
