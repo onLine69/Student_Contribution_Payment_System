@@ -34,20 +34,20 @@ public class DataManager {
 
             if (isConnectOnline) {
                 // use this for the online database
-                sql_name = "mysql";
-                host_name = "mysql-110300b9-systemproject.f.aivencloud.com";
-                port = "12738";
-                schema_name = "student_payment_system";
-                username = "user_admin";
-                password = "AVNS_wQT83-LDuTCcf-SLtIu";
+                sql_name = "";
+                host_name = "";
+                port = "";
+                schema_name = "";
+                username = "";
+                password = "";
             } else {
                 // change for new connection (this is for my personal connection)
-                sql_name = "mysql";
-                host_name = "127.0.0.1";
-                port = "3306";
-                schema_name = "Student_Payment_System";
-                username = "root";
-                password = "rootPassword";
+                sql_name = "";
+                host_name = "";
+                port = "";
+                schema_name = "";
+                username = "";
+                password = "";
             }
 
             connect = DriverManager.getConnection(
